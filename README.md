@@ -12,3 +12,7 @@ Feel free to add any functionality you want, just experiment with Angular featur
 
 Refernce to API documentation: https://developers.themoviedb.org/3/getting-started/introduction
 To get your own API key, you need to simply authorize on https://www.themoviedb.org/ and then go to settings -> API tab and generate you api_key
+
+NOTE!: If you have some issues with given API you are free to use any API you like or don't use API at all. But it would be great if you add some asynchronous logit, just to show that you can work with rxjs and http module.
+
+Good luck & have fun
