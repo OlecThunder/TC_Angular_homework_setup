@@ -1,27 +1,14 @@
-# MyFirstProject
+# Homework
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+Here I made a simple example of movie DB API request. From here i want you to extend this application.
+What would i like you to do:
+- Add a few routes (home page, about page, movies list for example) and the home page will have list of selected movies, movies page - all movies, about page - info about app. You not restricted to use those tabs, you may create any tabs you like, just make sure you have some routing.
+- Add header with a list of a tabs so you can navigate with it
+- Add some form (either to filter or add some items, it could be movies or user data form with favorite movie genrу for example), you can use any forms you like (reactive or template-driven).
+- Use pipe(s), for example currency pipe to show movie budget value with some currency
+- Make correct components structure (don't store whole form and list and list items in one home component, split those into home, home-list, home-list-item components)
+- Useing interfaces and typescript types would be a plus
+Feel free to add any functionality you want, just experiment with Angular features you have learnt.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Refernce to API documentation: https://developers.themoviedb.org/3/getting-started/introduction
+To get your own API key, you need to simply authorize on https://www.themoviedb.org/ and then go to settings -> API tab and generate you api_key
